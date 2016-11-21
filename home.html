@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		
+			* {
+					box-sizing: border-box;
+					
+			}
+			
+			.columnas{width:960px}
+			
+			.col-1 {width: 96px;}
+			.col-2 {width: 192px;}
+			.col-3 {width: 288px;}
+			.col-4 {width: 384px;}
+			.col-5 {width: 480px;}
+			.col-6 {width: 576px;}
+			.col-7 {width: 672px;}
+			.col-8 {width: 768px;}
+			.col-9 {width: 864px;}
+			.col-10 {width: 960px;}
+			
+			[class*="col-"] {
+				float:left;
+			}
+							
+			html {
+				font-family: Geneva, Arial, Helvetica, sans-serif;
+			}
+			
+			header {
+				background-color: #FFFFFF;
+				color: #000;
+				padding: 15px;
+			}
+			
+			h1, p{
+				text-align:center;
+			}
+			
+			.menu ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			
+			.menu li {
+				padding: 10px;
+				margin-bottom: 10px;
+				background-color: #CCCCCC;  
+				color: #ffffff;
+				
+			}
+			
+			.menu li:hover {
+				background-color: #339900;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>This site is not responsive, let's make it happen</h1>
+		</header>
+		
+		<div class="columnas">
+			<div class="col-2 menu">
+				<ul>
+					<li>View port</li>
+					<li>Grid system</li>
+					<li>Media Queries</li>
+					<li>Video and pictures</li>
+				</ul>
+			</div>
+			<div class="col-8">
+				<h1>Ejercicios</h1>
+				<p>	1) Descarga esta web desde github.</p>	
+				<p> 2) Añadele un viewport.</p>	
+				<p> 3) Elimina los anchos fijos.</p>	
+				<p>	4) Haz que la web sea responsive.</p>	
+				
+			</div>
+		</div>
+	</body>
+</html>
+
